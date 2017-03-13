@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:bobo="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/selector_item_appinfo_bg"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <!--使用自定义控件包住ImageView ,修改FrameLayout 就不会再管到其他的-->
+        <com.m520it.googleken.views.MyFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            bobo:mode_space="width"
+            bobo:reative="2.2">
+
+            <ImageView
+                android:id="@+id/item_subject_iv_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </com.m520it.googleken.views.MyFrameLayout>
+
+        <TextView
+            android:id="@+id/item_subject_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"/>
+    </LinearLayout>
+
+</FrameLayout>

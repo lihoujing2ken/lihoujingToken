@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GoogleKen</string>
+    <string name="close"/>
+    <string name="open"/>
+    <string-array name="main_titles">
+        <item>首页</item>
+        <item>应用</item>
+        <item>游戏</item>
+        <item>专题</item>
+        <item>推荐</item>
+        <item>分类</item>
+        <item>排行</item>
+    </string-array>
+    <string name="detail_download">下载量:%1$s</string>
+    <string name="detail_version">版本号:%1$s</string>
+    <string name="detail_timer">时间:%1$s</string>
+    <string name="detail_size">大小:%1$s</string>
+</resources>
